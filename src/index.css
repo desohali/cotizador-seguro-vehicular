@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.MuiFormControl-root.border-start .MuiOutlinedInput-root {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.MuiFormControl-root.border-end .MuiOutlinedInput-root {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.background-auto-seguro {
+  background-image: url("./assets/images/background.svg");
+}
+
+.MuiTabs-indicator {
+  background-color: #d32f2f !important;
+}
+
+.MuiTab-textColorSecondary {
+  font-weight: 600 !important;
+  color: #d32f2f !important;
+}
